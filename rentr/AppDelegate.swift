@@ -10,12 +10,33 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let resultsController = ResultsController(collectionViewLayout: UICollectionViewFlowLayout())
+        let navigationController = UINavigationController(rootViewController: resultsController)
+        window?.rootViewController = navigationController
+        
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red:51/255, green: 90/255, blue: 149/255, alpha:1)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        
+        application.statusBarStyle = .lightContent
+        
+    
+        /*window?.rootViewController = UINavigationController(rootViewController: customCollectionViewController) */
+    
+        
+            
         return true
     }
 

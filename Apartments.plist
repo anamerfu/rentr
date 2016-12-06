@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>images</key>
+		<array>
+			<string>apt1_1.jpeg</string>
+			<string>apt1_2.jpeg</string>
+			<string>apt1_3.jpeg</string>
+		</array>
+		<key>description</key>
+		<string>We&apos;ve considered your student housing needs carefully. An attractive building is nice but you should settle for more. Campus Common is brand new. You&apos;ll find it modern and stylish, bright and airy, well built and well maintained-with reasonably priced optional amenities ranging from parking and storage to telephone, cable and high-speed Internet.</string>
+		<key>bedrooms</key>
+		<integer>1</integer>
+		<key>bathrooms</key>
+		<integer>1</integer>
+		<key>size</key>
+		<integer>550</integer>
+		<key>pets</key>
+		<false/>
+		<key>parking</key>
+		<true/>
+		<key>laundry</key>
+		<false/>
+		<key>landlord</key>
+		<string>Topanga</string>
+		<key>otherFeatures</key>
+		<array>
+			<string>high-speed internet</string>
+			<string>TTC</string>
+			<string>storage</string>
+		</array>
+		<key>country</key>
+		<string>Canada</string>
+		<key>city</key>
+		<string>Toronto</string>
+		<key>location</key>
+		<string>50 Gerrard Street East</string>
+	</dict>
+</array>
+</plist>
